@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela de Musica Sundblad</title>
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta name="keywords" content="escuela, musica, cursos, niños, actividades, conciertos, violin, carreras, orquesta, experiencias, ensayo">
+    <meta name="description" content="Escuela de música, con carreras y cursos, ensayos orquestales, conciertos y actividades para niños y adolescentes">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header container-fluid">
+
+        <!-- Menu Principal -->
+        <nav class="header__menu-principal">
+            <ul class="header__menu nav nav-tabs nav-fill">
+                <a class="header__logo navbar-brand" href="index.html">
+                    <img src="imagenes/logo.jpg" alt="logo" width="70" height="60" title="logo">
+                </a>
+                <li class="header__menu-principal nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Cursos y Carreras
+                </a>
+                    <ul class="header__sub-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="menu__principal dropdown-item" href="Cursos_y_Carreras.html#violin">Violin</a></li>
+                        <li><a class="menu__principal dropdown-item" href="Cursos_y_Carreras.html#viola">Viola</a></li>
+                        <li><a class="menu__principal dropdown-item" href="Cursos_y_Carreras.html#violoncello">Violoncello</a></li>
+                        <li><a class="menu__principal dropdown-item" href="Cursos_y_Carreras.html#contrabajo">Contrabajo</a></li>
+                        <li><a class="menu__principal dropdown-item" href="Cursos_y_Carreras.html#composicion">Composicion</a></li>
+                        <li><a class="menu__principal dropdown-item" href="Cursos_y_Carreras.html#direccion_orquesta">Direccion de Orquesta</a></li>
+                    </ul>
+                    <li class="header__menu-principal nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Conciertos</a>
+                        <div class="header__sub-menu dropdown-menu">
+                            <a class="menu__principal dropdown-item" href="Conciertos.html#concierto2017">Concierto 2017</a>
+                            <a class="menu__principal dropdown-item" href="Conciertos.html#concierto2018">Concierto 2018</a>
+                            <a class="menu__principal dropdown-item" href="Conciertos.html#concierto2019">Concierto 2019</a>
+                            <a class="menu__principal dropdown-item" href="Conciertos.html#concierto2020">Concierto 2020</a>
+                        </div>
+                    </li>
+                    <li class="header__menu-principal nav-item">
+                        <a class="nav-link" href="Alumnos.html">Alumnos</a>
+                    </li>
+                    <li class="header__menu-principal nav-item">
+                        <a class="nav-link" href="index.html#contenido-index__actividades">Actividades</a>
+                    </li>
+                    <li class="header__menu-principal nav-item">
+                        <a class="nav-link" href="index.html#contenido-index__experiencias">Experiencias</a>
+                    </li>
+                    <li class="header__menu-principal nav-item">
+                        <a class="nav-link" href="Contacto.html">Contacto</a>
+                    </li>
+
+            </ul>
+        </nav>
+        <div class="header__titulo">
+            <h1 class="titulo_principal wow zoomIn">ESCUELA DE MÚSICA SUNDBLAD</h1>
+
+        </div>
+
+    </header>
+
+
+    <!-- Contenido Prinicpal -->
+
+    <main class="contenido-index">
+
+
+
+
+        <!-- Conciertos -->
+        <section class="contenido-conciertos">
+
+
+            <div class="contenido-index__conciertos">
+                <h3 class="contenido-index__conciertos--conciertosTitulo"><strong>Conciertos</strong></h3>
+                <h4 class="contenido-index__conciertos--conciertosTexto">A lo largo de estos años hemos realizado varios Conciertos</h4>
+                <div class="contenido-index__conciertos carouselExampleCaptions carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="contenido-index__conciertos carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagenes/conciertos-index.jpg" class="d-block w-100" alt="conciertos-index" height="600" title="concierto">
+                                <div class="carousel-caption d-none d-md-block">
+
+                                    <a class="contenido-index__conciertos--conciertosEnlace" href="Conciertos.html">Ver los Conciertos</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenes/conciertos-index2.jpg" class="d-block w-100" alt="conciertos-index" height="600" title="concierto">
+                                <div class="carousel-caption d-none d-md-block">
+
+                                    <a class="contenido-index__conciertos--conciertosEnlace" href="Conciertos.html">Ver los Conciertos</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagenes/conciertos-index3.jpg" class="d-block w-100" alt="conciertos-index" height="600" title="concierto">
+                                <div class="carousel-caption d-none d-md-block">
+
+                                    <a class="contenido-index__conciertos--conciertosEnlace" href="Conciertos.html">Ver los Conciertos</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contenido-index__conciertosBotones">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Actividades -->
+        <section class="contenido-actividades">
+
+            <div id="contenido-index__actividades">
+                <h3 class="contenido-index__actividades--actividadesTitulo"><strong>Actividades para niños y adolescentes</strong></h3>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="imagenes/actividades-index.png" class="card-img-top" alt="actividades-index" title="actividad">
+                            <div class="card-body">
+                                <h4 class="contenido-actividades">
+                                    Prácticas orquestales semanales
+                                </h4>
+                                <p class="card-text">Les damos a los chicos prácticas orquestales todas las semanas, para que se vayan sintiendo cómodos, y trabajen en equipo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="imagenes/actividades-index1.png" class="card-img-top" alt="actividades-index" title="actividad">
+                            <div class="card-body">
+                                <h4 class="contenido-actividades">
+                                    Todas las edades
+                                </h4>
+                                <p class="card-text">Desde pequeños les enseñamos a tener contacto con instrumentos musicales, y tocar en grupo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="imagenes/actividades-index2.png" class="card-img-top" alt="actividades-index" title="actividad">
+                            <div class="card-body">
+                                <h4 class="contenido-actividades">
+                                    Conciertos
+                                </h4>
+                                <p class="card-text">Realizamos conciertos para los chicos, así pueden mostrarle a sus padres su crecimiento musical</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="imagenes/actividades-index3.png" class="card-img-top" alt="actividades-index" title="actividad">
+                            <div class="card-body">
+                                <h4 class="contenido-actividades">
+                                    Ensayos de conjunto
+                                </h4>
+                                <p class="card-text">Dos veces por semana, tenemos ensayos de Orquestas de Cámara</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Experiencias -->
+        <section class="contenido-experiencias">
+
+            <div id="contenido-index__experiencias">
+                <h3 class="contenido-index__experiencias--experienciasTitulo"><strong>Experiencias</strong></h3>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="contenido-index__experiencias--contenido col">
+                        <div class="card h-100">
+                            <img src="imagenes/experiencias-index.png" class="card-img-top" alt="Experiencias-index" title="actividad">
+                            <div class="card-body">
+                                <h4 class="contenido-experiencias">
+                                    Ensayo para Concierto del 2017, con la Orquesta Juvenil
+                                </h4>
+                                <p class="card-text">En el Instituto Moya, nos permitieron realizar ensayos previos, donde pusimos a punto las obras de Bach y Mozart. Tuvimos 3 ensayos previos, a cargo del Mtro Sundblad a cargo de nuestra orquesta formada por estudiantes
+                                    de la Escuela
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="imagenes/experiencias-index1.png" class="card-img-top" alt="Experiencias-index" title="experiencia">
+                            <div class="card-body">
+                                <h4 class="contenido-experiencias">
+                                    Ensayo para el Concierto en el Borges
+                                </h4>
+                                <p class="card-text">En el Auditorio J.L.Borges ensayamos con los alumnos de la Orquesta Infantil</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="imagenes/experiencias-index2.png" class="card-img-top" alt="Experiencias-index" title="experiencia">
+                            <div class="card-body">
+                                <h4 class="contenido-experiencias">
+                                    Intercambio musical
+                                </h4>
+                                <p class="card-text">En el año 2018 hicimos el primer intercambio musical con los alumnos del Conservatorio J J Castro</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="imagenes/experiencias-index3.png" class="card-img-top" alt="Experiencias-index" title="experiencia">
+                            <div class="card-body">
+                                <h4 class="contenido-experiencias">
+                                    Concierto en el Teatro Municipal
+                                </h4>
+                                <p class="card-text">En el año 2020 realizamos nuestro primer Concierto en el Teatro Municipal de Tres Arroyos, con la Orquesta Infantil</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="imagenes/experiencias-index4.png" class="card-img-top" alt="Experiencias-index" title="experiencia">
+                            <div class="card-body ">
+                                <h4 class="contenido-experiencias ">
+                                    Masterclass con el Mtro Panella
+                                </h4>
+                                <p class="card-text ">El Maestro Panella se acercó a la Escuela, para dictar una espectacular Masterclass que nos ayudó a llevar a otro nivel nuestra música</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card h-100 ">
+                            <img src="imagenes/experiencias-index5.png " class="card-img-top " alt="Experiencias-index" title="experiencia">
+                            <div class="card-body ">
+                                <h4 class="contenido-experiencias ">
+                                    Exámenes
+                                </h4>
+                                <p class="card-text ">Todos los semestres los alumnos de nuestra Escuela, rinden exámenes, ante la mirada y corrección de nuestros Profesores</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card h-100 ">
+                            <img src="imagenes/experiencias-index6.png " class="card-img-top " alt="Experiencias-index" title="experiencia">
+                            <div class="card-body ">
+                                <h4 class="contenido-experiencias ">
+                                    Una noche mágica en las calles de San Isidro
+                                </h4>
+                                <p class="card-text ">En el año 2019 nuestra Orquesta principal dió un Concierto en las calles del centro de San Isidro, en el marco del Programa de Orquestas Juveniles de la Pcia de Bs As</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card h-100 ">
+                            <img src="imagenes/experiencias-index7.png " class="card-img-top " alt="Experiencias-index " title="experiencia">
+                            <div class="card-body ">
+                                <h4 class="contenido-experiencias ">
+                                    Estudiantes de Dirección Orquestal
+                                </h4>
+                                <p class="card-text ">Los estudiantes de Dirección Orquestal tienen la posibilidad de ensayar con una verdadera Orquesta para perfeccionar sus conocimientos</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer__contenido ">
+            <a class="footer__contenido--enlaces " href="Contacto.html ">Contacto</a>
+            <a class="footer__contenido--enlaces " href="https://goo.gl/maps/gK25KMYzwpDFsgrp7 " target="_blank ">Donde estamos</a>
+            <span class="footer__icono material-icons "><a href="# ">facebook</a></span>
+            <span class="footer__icono material-icons "><a href="# ">share</a></span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/@popperjs/core@2 "></script>
+    <script src="bootstrap/js/bootstrap.min.js "></script>
+
+    <script src="js/wow.min.js "></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>
