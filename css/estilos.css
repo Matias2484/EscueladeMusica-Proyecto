@@ -72,7 +72,7 @@ header {
     background-position: center center;
     background-blend-mode: soft-light;
     background-color: rgb(50, 50, 50);
-    height: 40rem;
+    height: 60rem;
     background-size: cover;
     margin-bottom: 0 auto;
 }
@@ -95,7 +95,7 @@ header {
     font-size: 10rem;
     text-align: center;
     color: var(--blanco);
-    margin-top: 3rem;
+    margin-top: 8rem;
 }
 
 @media (max-width: 480px) {
@@ -145,6 +145,10 @@ header {
 
 .contenido-index__conciertos--conciertosEnlace {
     color: var(--blanco);
+}
+
+.carousel-item img {
+    margin: auto;
 }
 
 .contenido-index__actividades {
@@ -210,8 +214,7 @@ footer {
 
 @media (max-width: 768px) {
     .footer__contenido--enlaces {
-        margin-left: 0;
-        justify-content: space-around;
+        margin: auto;
         margin-bottom: 2rem;
     }
 }
@@ -288,6 +291,7 @@ footer {
     background-blend-mode: soft-light;
     background-color: rgb(50, 50, 50);
     background-size: cover;
+    text-align: center;
 }
 
 .alumnos-titulo {
@@ -300,16 +304,21 @@ footer {
 
 .formulario {
     margin-top: 0 auto;
-    margin-bottom: 3rem;
-    background-color: var(--oscuro);
     margin-top: 3rem;
     padding: 2rem;
+    background-image: url("../imagenes/alumnos.jpg");
+    background-position: center center;
+    background-blend-mode: soft-light;
+    background-color: rgb(50, 50, 50);
+    height: 40rem;
+    background-size: cover;
 }
 
 .formulario_usuario {
     font-weight: bold;
     margin-right: 1rem;
     color: var(--blanco);
+    margin-top: 3rem;
 }
 
 .formulario_contrasenia {
@@ -328,6 +337,7 @@ footer {
 
 .formulario_recordarme {
     margin-left: 2rem;
+    margin-top: 3rem;
 }
 
 .formulario_recordarme-titulo {
@@ -338,12 +348,29 @@ footer {
 
 /* Contacto */
 
-.formulario-contacto {
-    background-image: url("../imagenes/fondo-index.jpg");
-    height: 40rem;
+.contacto {
+    background-color: var(--gris);
     background-blend-mode: soft-light;
     background-color: rgb(50, 50, 50);
     background-size: cover;
-    padding-left: 1rem;
-    padding-right: 1rem;
+}
+
+.contacto-titulo {
+    color: var(--blanco);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.formulario-contacto {
+    height: 100%;
+    color: var(--blanco);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-image: url("../imagenes/alumnos.jpg");
+    background-position: center center;
+    background-blend-mode: soft-light;
+    background-color: rgb(50, 50, 50);
+    height: 40rem;
+    background-size: cover;
 }
