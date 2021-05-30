@@ -153,6 +153,8 @@ header {
 
 .contenido-index__actividades {
     margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .contenido-index__actividades--actividadesTitulo {
@@ -172,6 +174,11 @@ header {
 .contenido-index__experiencias--experienciasTitulo {
     text-align: center;
     margin: 2rem 2rem;
+}
+
+.contenido-index__experiencias {
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .imagen-experiencia:active {
@@ -243,42 +250,54 @@ footer {
 /* Conciertos */
 
 .conciertos_contenido {
-    display: flex;
     background-color: var(--gris);
     height: 100%;
     color: var(--blanco);
     background-blend-mode: soft-light;
     background-color: rgb(50, 50, 50);
     background-size: cover;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
     padding: 2rem;
 }
 
 .conciertos2017 {
-    flex-wrap: wrap;
     text-align: center;
     margin-right: 2rem;
     margin-left: 2rem;
 }
 
 .conciertos2018 {
-    flex-wrap: wrap;
     text-align: center;
     margin-right: 3rem;
 }
 
 .conciertos2019 {
-    flex-wrap: wrap;
     text-align: center;
     margin-right: 2rem;
 }
 
 .conciertos2020 {
-    flex-wrap: wrap;
     text-align: center;
     margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+    .conciertos_contenido {
+        display: grid;
+    }
+}
+
+@media (min-width: 769px) {
+    .conciertos_contenido {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 991px) {
+    .conciertos_contenido {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 
