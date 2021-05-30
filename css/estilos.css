@@ -151,6 +151,12 @@ header {
     margin: auto;
 }
 
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 15rem;
+    }
+}
+
 #contenido-index__actividades {
     margin-bottom: 3rem;
     margin-left: 3rem;
